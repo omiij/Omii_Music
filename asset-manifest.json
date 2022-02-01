@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Omii_Music/static/css/main.b83327f9.css",
+    "main.js": "/Omii_Music/static/js/main.e297cbe2.js",
+    "static/media/Pexels Videos 4552.mp4": "/Omii_Music/static/media/Pexels Videos 4552.91b4209217586770f9df.mp4",
+    "index.html": "/Omii_Music/index.html",
+    "main.b83327f9.css.map": "/Omii_Music/static/css/main.b83327f9.css.map",
+    "main.e297cbe2.js.map": "/Omii_Music/static/js/main.e297cbe2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b83327f9.css",
+    "static/js/main.e297cbe2.js"
+  ]
+}
