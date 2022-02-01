@@ -1,0 +1,46 @@
+.card {
+  padding: 25px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, rgba(180, 134, 134, 0.986) 0%, white);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  overflow-x: auto;
+  display: flex;
+}
+/* .card::-webkit-scrollbar {
+  width: 50px;
+  color: grey;
+} */
+.card figure {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  width: 250px;
+  text-align: center;
+  margin: 10px;
+}
+.song_Image {
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+/* .card-text {
+  font-size: large;
+  font-style: italic;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: inline;
+}
+@media screen and(min:300px) {
+  .Artist-info {
+    padding: 25px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(180, 134, 134, 0.986) 0%, white);
+
+    flex-direction: column;
+    grid-template-columns: 100%;
+  }
+} */
