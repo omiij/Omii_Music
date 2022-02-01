@@ -39,49 +39,68 @@ function App() {
     <>
       {userData ? (
         <>
-          <Navbar handleLogout={handleLogout} />
+           <Navbar handleLogout={handleLogout} />
+
           <Routes>
             <Route path="/" element={<Artis />} />
-          </Routes>
-          <Routes>
             <Route path="/Pitsong" element={<Pitbull />} />
-          </Routes>
-          <Routes>
             <Route path="/Jenisong" element={<JeniferL />} />
-          </Routes>
-          <Routes>
             <Route path="/Radfoosong" element={<RadfooS />} />
-          </Routes>
-          <Routes>
             <Route path="/Maroonsong" element={<MaroonS />} />
-          </Routes>
-          <Routes>
             <Route path="/Alexasong" element={<AlexandraS />} />
-          </Routes>
-          <Routes>
             <Route path="/Akcentsong" element={<AkcentS />} />
-          </Routes>
-          <Routes>
             <Route path="/Dadyyankeesong" element={<DaddyYS />} />
-          </Routes>
-          <Routes>
-            <Route path="/Kishorkumarsong" element={<KishorS />} />
-          </Routes>
-          <Routes>
-            <Route path="/Puthsong" element={<CharliS />} />
-          </Routes>
-          <Routes>
-            <Route path="/Brunosong" element={<BrunoS />} />
-          </Routes>
-          <Routes>
-            <Route path="/Taylorsong" element={<TaylorS />} />
-          </Routes>
-          <Routes>
-            <Route path="/Jubinsong" element={<JubinS />} />
-          </Routes>
-          <Routes>
             <Route path="/about" element={<About />} />
-          </Routes>
+            <Route path="/Jubinsong" element={<JubinS />} />
+            <Route path="/Taylorsong" element={<TaylorS />} />
+            <Route path="/Brunosong" element={<BrunoS />} />
+            <Route path="/Kishorkumarsong" element={<KishorS />} />
+            <Route path="/Puthsong" element={<CharliS />} />
+          </Routes
+       
+//           <Navbar handleLogout={handleLogout} />
+//           <Routes>
+//             <Route path="/" element={<Artis />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Pitsong" element={<Pitbull />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Jenisong" element={<JeniferL />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Radfoosong" element={<RadfooS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Maroonsong" element={<MaroonS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Alexasong" element={<AlexandraS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Akcentsong" element={<AkcentS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Dadyyankeesong" element={<DaddyYS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Kishorkumarsong" element={<KishorS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Puthsong" element={<CharliS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Brunosong" element={<BrunoS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Taylorsong" element={<TaylorS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/Jubinsong" element={<JubinS />} />
+//           </Routes>
+//           <Routes>
+//             <Route path="/about" element={<About />} />
+//           </Routes>
         </>
       ) : (
         <Login changeUserData={changeUserData} />
