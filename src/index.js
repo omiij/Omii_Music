@@ -5,7 +5,7 @@ import { BrowserRouter, HashRouter } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Omii_Music">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
